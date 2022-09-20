@@ -1,0 +1,27 @@
+
+J
+00_orientation/homework.py,9\7\97273ccf1be8c2667156e3bd39ffd50487e8030d
+R
+"99_testing/.testing_insert_list.py,a\8\a87532b09c4c1a88b339c525bfb58c30f8f2e881
+P
+ 99_testing/.testing_is_number.py,d\d\dde14612f9da903aaae0416c7afa10d4779afa81
+V
+&99_testing/.testing_repeated_inputs.py,e\9\e93cfb1aade6aef9dce2d4f9305ece20b44eeb25
+O
+99_backup/waitForCorrectWord.py,2\a\2a89bac7a9cb44cf65d388e41839203d39814d83
+O
+01_basics/waitForCorrectWord.py,5\d\5d0a72df1a104111840fb2a227e073d67773eade
+F
+99_backup/sumInputs.py,3\a\3a275d1dcc02d71c942b2d37b6cf4229940a5773
+U
+%99_testing/.testing_python_pattern.py,e\2\e28dc2a6c5b450e4c20456a48e94981a5c25692c
+H
+99_backup/splitString.py,d\2\d270e133f3ce275a6839ee387c2b951a8a7cecb2
+E
+01_basics/sumRange.py,3\1\31131ffa7158019dbb4bef9ee3e0300a0cf6f630
+F
+01_basics/sumInputs.py,5\4\5412095b70052b221b537ea52a6219133dc70b60
+W
+'99_crash course/08_functions/greeter.py,6\b\6b68d03f993803c7e6ba07cc56601e49149c6b39
+f
+699_testing/.testing_arithmetic operations functoins.py,2\b\2b27e1e61b07c7d741d9bed0b42f14bc722b0e58
