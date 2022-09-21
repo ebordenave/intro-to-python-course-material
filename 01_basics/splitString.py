@@ -13,20 +13,16 @@ ls = []
 
 first_input_string = str(input())
 
+growing_string = ''
+
 # new list
 nls = []
 
-
 while first_input_string != '':
-    ls = list(first_input_string)
-    while True:
-        second_input_string = str(input())
-        if second_input_string != '' and len(second_input_string) < len(ls):
-            nls = list(second_input_string)
-            ls.insert(len(nls), nls)
-        elif second_input_string != '' and len(second_input_string) >= len(ls):
-            ls.append(list(second_input_string))
-        elif '' == second_input_string:
-            break
-flat_list = [item for sublist in ls for item in sublist]
-print(*flat_list, sep='')
+    if len(first_input_string) >= len(growing_string):
+        growing_string = growing_string + first_input_string
+    else:
+        pos = len(first_input_string)
+        growing_string = growing_string[:pos] + first_input_string + growing_string[pos:]
+        first_input_string = str(input())
+print(growing_string)
