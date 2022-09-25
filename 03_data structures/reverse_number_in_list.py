@@ -5,14 +5,14 @@
 #
 #
 def reverse_number_in_list(number_list: list) -> list:
-    new_list = []
+    rev_list = []
     for i in number_list:
         num = str(i)
         rev_num = num.rstrip('0')
         rev_num = rev_num[::-1]
-        new_list.append(int(rev_num))
-    print(new_list)
-    return new_list
+        rev_list.append(int(rev_num))
+    print(rev_list)
+    return rev_list
 
 
 reverse_number_in_list(number_list=[13, 45, 690, 57])
