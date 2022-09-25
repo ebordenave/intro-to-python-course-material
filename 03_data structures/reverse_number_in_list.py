@@ -4,17 +4,16 @@
 # number_list will be less than 1.
 #
 #
-# def reverse_number_in_list(number_list:list)-> list:
+def reverse_number_in_list(number_list: list) -> list:
+    number_list = []
+    n = 0
+    while n < 4:
+        num = input()
+        rev_num = num.rstrip('0')
+        rev_num = rev_num[::-1]
+        number_list.append(rev_num)
+        print(number_list)
+        n += 1
+    return number_list
 
-num_list = []
-n = 0
-pos = 0
-
-while n < 4:
-    num = input()
-    rev_num = num.rstrip('0')
-    rev_num = rev_num[::-1]
-    num_list.append(rev_num)
-    print(num_list)
-    n += 1
-
+reverse_number_in_list()
