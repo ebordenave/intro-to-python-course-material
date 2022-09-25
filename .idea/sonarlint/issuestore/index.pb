@@ -11,8 +11,6 @@ O
 01_basics/waitForCorrectWord.py,5\d\5d0a72df1a104111840fb2a227e073d67773eade
 F
 99_backup/sumInputs.py,3\a\3a275d1dcc02d71c942b2d37b6cf4229940a5773
-U
-%99_testing/.testing_python_pattern.py,e\2\e28dc2a6c5b450e4c20456a48e94981a5c25692c
 E
 01_basics/sumRange.py,3\1\31131ffa7158019dbb4bef9ee3e0300a0cf6f630
 W
@@ -27,3 +25,27 @@ I
 01_basics/reverseInput.py,7\7\77f97e0a8f2dd61515c2a11196ced9762d91e653
 S
 #02_functions/def_resultOverrider.py,e\0\e0d3d126d3d1a74b24cad99b583e5f7824c86c43
+Q
+!02_functions/def_nestedRemoval.py,a\1\a1aae155272be575a8fc7d252b3723d34eed52a8
+R
+"02_functions/def_functionSolver.py,b\6\b67147f7cb2a11563bc002e39d76aeed733a993d
+N
+02_functions/def_productSum.py,0\0\0061c71e89e49c74470a65bb41c7bc74e96bdfbe
+J
+00_orientation/homework.py,9\7\97273ccf1be8c2667156e3bd39ffd50487e8030d
+H
+01_basics/splitString.py,7\4\7407737c2076cc908647ef0c156d1970bf0614df
+H
+99_backup/splitString.py,d\2\d270e133f3ce275a6839ee387c2b951a8a7cecb2
+I
+99_backup/reverseInput.py,2\e\2eb7afc6a627a564350979809f1027b66d1576a4
+L
+99_backup/printMathResult.py,5\8\58136baa6760d7f8ef5a08067fd8160171afb579
+H
+99_backup/numberGuess.py,7\7\77ecabc395d6fa3ad6065911de62b93350b2d171
+Q
+!03_data structures/flip_matrix.py,d\d\dd3abe99960aa5a21dcb973d25009498060ac76c
+Q
+!03_data structures/remove_char.py,0\7\0751384eba66670ef5340c52fc41533ad973d211
+\
+,03_data structures/reverse_number_in_list.py,f\5\f5df72c264cd7c6c1cf69f62d48c5f03e8de025f
