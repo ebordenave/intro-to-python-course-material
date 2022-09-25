@@ -12,6 +12,8 @@
 # y = 3
 # z = 19
 # output = 12 = 4 * 3 because 4 * 3 < 19
+from _distutils_hack import override
+
 
 # def productSum(x: int, y: int, z: int) -> int
 # This function should return:
@@ -25,15 +27,13 @@ def productSum(x: int, y: int, z: int) -> int:
         product_xy = x * y
         # assign the product value to the variable named product_xy
         print(product_xy)
+        return product_xy
     elif x * y >= z:
         # if x times y is greater than the value of z
         sum_xy = x + y
         # assign the sum of x + y to the sum_xy variable
         print(sum_xy)
+        return sum_xy
 
 
-arg_x = int(input())
-arg_y = int(input())
-arg_z = int(input())
-
-productSum(arg_x, arg_y, arg_z)
+productSum(x=2, y=4, z=32)

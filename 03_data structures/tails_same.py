@@ -13,4 +13,4 @@ def tails_same(number_list: list) -> bool:
     return first == last
 
 
-tails_same(number_list=[1, 239, 949, 0, 84, 0, 13])
+tails_same(number_list=[1, 239, 949, 0, 84, 0, 1])

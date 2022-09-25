@@ -23,14 +23,6 @@ F
 01_basics/sumInputs.py,5\4\5412095b70052b221b537ea52a6219133dc70b60
 I
 01_basics/reverseInput.py,7\7\77f97e0a8f2dd61515c2a11196ced9762d91e653
-S
-#02_functions/def_resultOverrider.py,e\0\e0d3d126d3d1a74b24cad99b583e5f7824c86c43
-Q
-!02_functions/def_nestedRemoval.py,a\1\a1aae155272be575a8fc7d252b3723d34eed52a8
-R
-"02_functions/def_functionSolver.py,b\6\b67147f7cb2a11563bc002e39d76aeed733a993d
-N
-02_functions/def_productSum.py,0\0\0061c71e89e49c74470a65bb41c7bc74e96bdfbe
 J
 00_orientation/homework.py,9\7\97273ccf1be8c2667156e3bd39ffd50487e8030d
 H
@@ -43,9 +35,3 @@ L
 99_backup/printMathResult.py,5\8\58136baa6760d7f8ef5a08067fd8160171afb579
 H
 99_backup/numberGuess.py,7\7\77ecabc395d6fa3ad6065911de62b93350b2d171
-Q
-!03_data structures/flip_matrix.py,d\d\dd3abe99960aa5a21dcb973d25009498060ac76c
-Q
-!03_data structures/remove_char.py,0\7\0751384eba66670ef5340c52fc41533ad973d211
-\
-,03_data structures/reverse_number_in_list.py,f\5\f5df72c264cd7c6c1cf69f62d48c5f03e8de025f
