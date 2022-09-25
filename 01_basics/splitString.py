@@ -8,21 +8,19 @@
 # This script should not print any other text to the console other than the result of the growing string.
 # Do not print any input prompt.
 
-# list
-ls = []
-
 first_input_string = str(input())
-
 growing_string = ''
 
 # new list
 nls = []
 
 while first_input_string != '':
-    if len(first_input_string) >= len(growing_string):
+    if len(first_input_string) == len(growing_string):
         growing_string = growing_string + first_input_string
     else:
         pos = len(first_input_string)
         growing_string = growing_string[:pos] + first_input_string + growing_string[pos:]
         first_input_string = str(input())
 print(growing_string)
+
+

@@ -21,10 +21,14 @@
 
 def productSum(x: int, y: int, z: int) -> int:
     if x * y < z:
+        # if the product of x times y is less than the value of z
         product_xy = x * y
+        # assign the product value to the variable named product_xy
         print(product_xy)
     elif x * y >= z:
+        # if x times y is greater than the value of z
         sum_xy = x + y
+        # assign the sum of x + y to the sum_xy variable
         print(sum_xy)
 
 

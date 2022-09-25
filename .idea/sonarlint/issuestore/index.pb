@@ -1,6 +1,4 @@
 
-J
-00_orientation/homework.py,9\7\97273ccf1be8c2667156e3bd39ffd50487e8030d
 R
 "99_testing/.testing_insert_list.py,a\8\a87532b09c4c1a88b339c525bfb58c30f8f2e881
 P
@@ -15,13 +13,17 @@ F
 99_backup/sumInputs.py,3\a\3a275d1dcc02d71c942b2d37b6cf4229940a5773
 U
 %99_testing/.testing_python_pattern.py,e\2\e28dc2a6c5b450e4c20456a48e94981a5c25692c
-H
-99_backup/splitString.py,d\2\d270e133f3ce275a6839ee387c2b951a8a7cecb2
 E
 01_basics/sumRange.py,3\1\31131ffa7158019dbb4bef9ee3e0300a0cf6f630
-F
-01_basics/sumInputs.py,5\4\5412095b70052b221b537ea52a6219133dc70b60
 W
 '99_crash course/08_functions/greeter.py,6\b\6b68d03f993803c7e6ba07cc56601e49149c6b39
 f
 699_testing/.testing_arithmetic operations functoins.py,2\b\2b27e1e61b07c7d741d9bed0b42f14bc722b0e58
+R
+"99_testing/.testing_splitString.py,d\2\d2410975c28caa7d0fcfc2363bbe63be794e9c4b
+F
+01_basics/sumInputs.py,5\4\5412095b70052b221b537ea52a6219133dc70b60
+I
+01_basics/reverseInput.py,7\7\77f97e0a8f2dd61515c2a11196ced9762d91e653
+S
+#02_functions/def_resultOverrider.py,e\0\e0d3d126d3d1a74b24cad99b583e5f7824c86c43

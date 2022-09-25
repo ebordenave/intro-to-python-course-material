@@ -1,4 +1,4 @@
-# This is the orientation homework.py file you will need to modify to complete
+# This is the orientation reverse_number_in_list.py file you will need to modify to complete
 # the orientation assignment on Grader Than. 
 # 
 # Change the print statement below to print the text "success" then upload to

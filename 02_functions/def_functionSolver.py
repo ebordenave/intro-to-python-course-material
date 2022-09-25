@@ -15,13 +15,14 @@
 # symbol (+, -, *, /) that corresponds to function f’s operation. The return value should be a string.
 
 def functionSolver(function: callable) -> str:
-    # Test 1
+    # If the summation of the values in the function are equivalent to the result of the given arguments then return an addition string
     if function(1, 1) == 2.0 and function(2, 3) == 5.0 and function(4, 1) == 5.0:
         return '+'
-    # Test 2
+    # If the difference of the values in the function are equivalent to the result of the given arguments then return a subtration string
     elif function(1, 1) == 0.0 and function(2, 3) == -1.0 and function(4, 1) == 3.0:
         return '-'
-    # Test 3
+    # If the product of the values in the function are equivalent to the result of the given arguments then return a subtration string
     elif function(1, 1) == 1.0 and function(2, 3) == 6.0 and function(4, 1) == 4.0:
         return '*'
+    # else the string is division
     return '/'
