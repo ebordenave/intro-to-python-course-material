@@ -35,3 +35,23 @@ L
 99_backup/printMathResult.py,5\8\58136baa6760d7f8ef5a08067fd8160171afb579
 H
 99_backup/numberGuess.py,7\7\77ecabc395d6fa3ad6065911de62b93350b2d171
+U
+%99_testing/.testing_python_pattern.py,e\2\e28dc2a6c5b450e4c20456a48e94981a5c25692c
+R
+"02_functions/def_functionSolver.py,b\6\b67147f7cb2a11563bc002e39d76aeed733a993d
+w
+G.idea/sonarlint/issuestore/2/e/2eb7afc6a627a564350979809f1027b66d1576a4,4\b\4bf4cb822daaf56081fc1fa70c3fd91b5846b146
+w
+G.idea/sonarlint/issuestore/7/4/7407737c2076cc908647ef0c156d1970bf0614df,1\5\15be71fe3a43ad484ee066f1a70de806311271e1
+w
+G.idea/sonarlint/issuestore/5/8/58136baa6760d7f8ef5a08067fd8160171afb579,1\0\104f828f5e26a0dc153dd0e00108414709312094
+w
+G.idea/sonarlint/issuestore/9/7/97273ccf1be8c2667156e3bd39ffd50487e8030d,5\8\5824d37e5e4926af5491fecdf11b36d6703659a9
+w
+G.idea/sonarlint/issuestore/7/7/77f97e0a8f2dd61515c2a11196ced9762d91e653,9\c\9c3e3e246f085b4d860db74b9260c1b9397725de
+w
+G.idea/sonarlint/issuestore/d/2/d270e133f3ce275a6839ee387c2b951a8a7cecb2,8\8\88fd0988f7f763abf2323bb74e5acf1103a8b54d
+w
+G.idea/sonarlint/issuestore/d/2/d2410975c28caa7d0fcfc2363bbe63be794e9c4b,d\f\df9310327e963174d3dfeffd505cf2cb164c2ff5
+w
+G.idea/sonarlint/issuestore/7/7/77ecabc395d6fa3ad6065911de62b93350b2d171,0\d\0d640b8b1a5c68836cf406fe62a7ad66d3e27681

@@ -14,18 +14,17 @@
 #
 # output = ['1', '2 2', '3 3 3', '4 4 4 4']
 #
-ls = []
-nls = []
 
 
 def return_growing_num_list(max: int) -> list:
-    max = range(int(input()) + 1)
-    for i in max:
-        ls = [i] * i
-        for _ in ls:
-            nls.append(i)
-    print(nls)
-    return nls
+    orig_ls = []
+    new_ls = []
+    for i in range(max + 1):
+        orig_ls = [i] * i
+        for _ in orig_ls:
+            new_ls.append(i)
+    print(new_ls)
+    return new_ls
 
 
-return_growing_num_list(max)
+return_growing_num_list(max=6)

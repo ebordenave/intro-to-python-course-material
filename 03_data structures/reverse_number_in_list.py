@@ -11,7 +11,7 @@ def reverse_number_in_list(number_list: list) -> list:
         rev_num = num.rstrip('0')
         rev_num = rev_num[::-1]
         rev_list.append(int(rev_num))
-    print(rev_list)
+    # print(rev_list)
     return rev_list
 
 

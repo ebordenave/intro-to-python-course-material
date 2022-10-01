@@ -36,4 +36,4 @@ def nestedRemoval(text: str, leftPattern: str, rightPattern: str) -> str:
     return ans
 
 #
-# print(nestedRemoval(str(input()), str(input()), 'y'))
+print()

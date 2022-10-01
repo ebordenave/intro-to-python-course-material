@@ -9,11 +9,11 @@
 
 
 def remove_char(str_list: list, char: str) -> list:
-    result = []
+    ls = []
     for i in str_list:
         var = i.replace(char, '')
-        result.append(var)
-    print(result)
+        ls.append(var)
+    return ls
 
 
 list_1 = ['adndj', 'adjdlaa', 'aa', 'djoe']
