@@ -64,3 +64,30 @@ def concatenate_dict(dict_list: list) -> dict:
             new_dict.setdefault(key, value)
     print(new_dict)
     return new_dict
+
+
+def unique_values(a_dict: dict) -> dict:
+    count = {}
+    to_ret = {}
+    for v in a_dict.values():
+        if v in count:
+            count[v] += 1
+        else:
+            count[v] = 1
+    for k, v in count.items():
+        if v == 1:
+            value = [i for i in a_dict if a_dict[i] == k]
+            for elem in value:
+                to_ret[k] = elem
+    return to_ret
+
+
+def find_color(colors: set, values: list) -> list:
+    ls = []
+    for i in values:
+        ind_tuple_dict = {i}
+        for k, v in ind_tuple_dict:
+            if k in colors:
+                ls.append(v)
+    print(ls)
+    return ls
