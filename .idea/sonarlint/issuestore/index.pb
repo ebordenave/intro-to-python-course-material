@@ -69,5 +69,3 @@ Q
 !03_data structures/remove_char.py,0\7\0751384eba66670ef5340c52fc41533ad973d211
 Q
 !03_data structures/flip_matrix.py,d\d\dd3abe99960aa5a21dcb973d25009498060ac76c
-P
- 03_data structures/find_color.py,2\b\2bd8d5d2585a60d8e67f530bcfec0e4ee96e1607
