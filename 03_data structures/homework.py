@@ -91,3 +91,8 @@ def find_color(colors: set, values: list) -> list:
                 ls.append(v)
     print(ls)
     return ls
+
+
+def dict_from_string(dict_str: str) -> dict:
+    res = eval(dict_str)
+    return res
