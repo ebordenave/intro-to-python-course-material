@@ -18,10 +18,10 @@ def remove_char(str_list: list, char: str) -> list:
 def return_growing_num_list(max: int) -> list:
     orig_ls = []
     new_ls = []
-    for i in range(max + 1):
+    for i in range(1, max + 1):
         orig_ls = [i] * i
-        for _ in orig_ls:
-            new_ls.append(str(i))
+        string = ' '.join([str(item) for item in orig_ls])
+        new_ls.append(string)
     print(new_ls)
     return new_ls
 
@@ -52,8 +52,15 @@ def dict_contains_keys(items: set, example_dict: dict) -> bool:
         else:
             x += 0
     if x > 0:
-        print(x)
         return True
     else:
-        print(x)
         return False
+
+
+def concatenate_dict(dict_list: list) -> dict:
+    new_dict = {}
+    for sub_dict in dict_list:
+        for key, value in sub_dict.items():
+            new_dict.setdefault(key, value)
+    print(new_dict)
+    return new_dict

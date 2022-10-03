@@ -19,8 +19,6 @@ f
 699_testing/.testing_arithmetic operations functoins.py,2\b\2b27e1e61b07c7d741d9bed0b42f14bc722b0e58
 R
 "99_testing/.testing_splitString.py,d\2\d2410975c28caa7d0fcfc2363bbe63be794e9c4b
-F
-01_basics/sumInputs.py,5\4\5412095b70052b221b537ea52a6219133dc70b60
 I
 01_basics/reverseInput.py,7\7\77f97e0a8f2dd61515c2a11196ced9762d91e653
 J
@@ -55,3 +53,21 @@ w
 G.idea/sonarlint/issuestore/d/2/d2410975c28caa7d0fcfc2363bbe63be794e9c4b,d\f\df9310327e963174d3dfeffd505cf2cb164c2ff5
 w
 G.idea/sonarlint/issuestore/7/7/77ecabc395d6fa3ad6065911de62b93350b2d171,0\d\0d640b8b1a5c68836cf406fe62a7ad66d3e27681
+H
+02_functions/homework.py,7\d\7d310b7e56989dd635469154eb25340cd9fae0ad
+N
+02_functions/def_productSum.py,0\0\0061c71e89e49c74470a65bb41c7bc74e96bdfbe
+S
+#02_functions/def_resultOverrider.py,e\0\e0d3d126d3d1a74b24cad99b583e5f7824c86c43
+\
+,03_data structures/reverse_number_in_list.py,f\5\f5df72c264cd7c6c1cf69f62d48c5f03e8de025f
+Q
+!02_functions/def_nestedRemoval.py,a\1\a1aae155272be575a8fc7d252b3723d34eed52a8
+P
+ 03_data structures/tails_same.py,b\d\bde41599eae99f2c68cf9539160b8c560d236a37
+Q
+!03_data structures/remove_char.py,0\7\0751384eba66670ef5340c52fc41533ad973d211
+Q
+!03_data structures/flip_matrix.py,d\d\dd3abe99960aa5a21dcb973d25009498060ac76c
+P
+ 03_data structures/find_color.py,2\b\2bd8d5d2585a60d8e67f530bcfec0e4ee96e1607

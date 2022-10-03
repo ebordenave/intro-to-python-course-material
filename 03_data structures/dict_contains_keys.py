@@ -9,16 +9,12 @@ def dict_contains_keys(items: set, example_dict: dict) -> bool:
     x = 0
     for i in example_dict and items:
         if i in example_dict and items:
-            print('true')
             x += 1
         else:
-            print('false')
             x += 0
     if x > 0:
-        print(x)
         return True
     else:
-        print(x)
         return False
 
 

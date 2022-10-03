@@ -19,12 +19,12 @@
 def return_growing_num_list(max: int) -> list:
     orig_ls = []
     new_ls = []
-    for i in range(max + 1):
+    for i in range(1, max+1):
         orig_ls = [i] * i
-        for _ in orig_ls:
-            new_ls.append(i)
+        string = ' '.join([str(item) for item in orig_ls])
+        new_ls.append(string)
     print(new_ls)
     return new_ls
 
 
-return_growing_num_list(max=6)
+return_growing_num_list(max=3)
