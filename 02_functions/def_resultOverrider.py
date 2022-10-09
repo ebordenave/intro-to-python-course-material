@@ -14,7 +14,9 @@ def resultOverrider(x: int, y: int, op: str, override: callable) -> int:
         if op == '+':
             return x + y
     else:
-        if op == '-':
+        if op == '+':
+            return x + y
+        elif op == '-':
             return x - y
         elif op == '*':
             return x - y
@@ -22,4 +24,4 @@ def resultOverrider(x: int, y: int, op: str, override: callable) -> int:
             return x // y
 
 
-print(resultOverrider(int(input()), int(input()), str(input()), None))
+resultOverrider(2, 3, '+', None)

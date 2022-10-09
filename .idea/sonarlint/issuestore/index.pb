@@ -53,19 +53,65 @@ w
 G.idea/sonarlint/issuestore/d/2/d2410975c28caa7d0fcfc2363bbe63be794e9c4b,d\f\df9310327e963174d3dfeffd505cf2cb164c2ff5
 w
 G.idea/sonarlint/issuestore/7/7/77ecabc395d6fa3ad6065911de62b93350b2d171,0\d\0d640b8b1a5c68836cf406fe62a7ad66d3e27681
-H
-02_functions/homework.py,7\d\7d310b7e56989dd635469154eb25340cd9fae0ad
 N
 02_functions/def_productSum.py,0\0\0061c71e89e49c74470a65bb41c7bc74e96bdfbe
-S
-#02_functions/def_resultOverrider.py,e\0\e0d3d126d3d1a74b24cad99b583e5f7824c86c43
 \
 ,03_data structures/reverse_number_in_list.py,f\5\f5df72c264cd7c6c1cf69f62d48c5f03e8de025f
-Q
-!02_functions/def_nestedRemoval.py,a\1\a1aae155272be575a8fc7d252b3723d34eed52a8
 P
  03_data structures/tails_same.py,b\d\bde41599eae99f2c68cf9539160b8c560d236a37
 Q
 !03_data structures/remove_char.py,0\7\0751384eba66670ef5340c52fc41533ad973d211
+F
+01_basics/sumInputs.py,5\4\5412095b70052b221b537ea52a6219133dc70b60
+X
+(03_data structures/return_growing_num.py,4\9\49fe16fb5b31c99fda12a98b65a3d78d2570b3f6
+V
+&03_data structures/concatenate_dict.py,3\8\3877b134524210fe12528c9545e6f17b7b89dc88
+w
+G.idea/sonarlint/issuestore/0/7/0751384eba66670ef5340c52fc41533ad973d211,6\6\66398327fd0bfe55f6cf16a0caae77dac32e4b78
+w
+G.idea/sonarlint/issuestore/a/1/a1aae155272be575a8fc7d252b3723d34eed52a8,5\6\5670401978d03b2f593811b4d2b9cf33c996bddd
+w
+G.idea/sonarlint/issuestore/1/0/104f828f5e26a0dc153dd0e00108414709312094,9\8\985beb02997f0775da4918cc91ad82241e264fce
+w
+G.idea/sonarlint/issuestore/b/d/bde41599eae99f2c68cf9539160b8c560d236a37,9\6\967bb787e69fb2c18ac2e3c4e0061839a608a1fb
+w
+G.idea/sonarlint/issuestore/f/5/f5df72c264cd7c6c1cf69f62d48c5f03e8de025f,c\7\c7e076997a84b497e2a514cd6a894c263e2436ba
+w
+G.idea/sonarlint/issuestore/1/5/15be71fe3a43ad484ee066f1a70de806311271e1,6\2\62fa8af965d3f5622798ad36cd6d3d40cae7d8e0
+w
+G.idea/sonarlint/issuestore/8/8/88fd0988f7f763abf2323bb74e5acf1103a8b54d,8\4\8412c8a8c39ec309fe953f384d6d77dcf1737a60
+w
+G.idea/sonarlint/issuestore/d/f/df9310327e963174d3dfeffd505cf2cb164c2ff5,d\0\d089ebf931693688241793849e2f1b54300e68c6
+w
+G.idea/sonarlint/issuestore/9/c/9c3e3e246f085b4d860db74b9260c1b9397725de,e\a\ea575aef1370b059edac1b819a47cc167b53ff2b
+w
+G.idea/sonarlint/issuestore/0/d/0d640b8b1a5c68836cf406fe62a7ad66d3e27681,1\5\1567070a146ce754613e938d56a80e6af2d2612d
+w
+G.idea/sonarlint/issuestore/5/8/5824d37e5e4926af5491fecdf11b36d6703659a9,f\9\f90a7bd3d88db0a39e2dd11fe0b074961e162146
+w
+G.idea/sonarlint/issuestore/b/6/b67147f7cb2a11563bc002e39d76aeed733a993d,2\3\23c8de466a4b85aa0dc43be4c1a7336999d8e728
+w
+G.idea/sonarlint/issuestore/0/0/0061c71e89e49c74470a65bb41c7bc74e96bdfbe,d\5\d51a81cb7df25e7542779e8bd734b85e45ef9006
+w
+G.idea/sonarlint/issuestore/e/2/e28dc2a6c5b450e4c20456a48e94981a5c25692c,1\f\1f24eadacfe2c8072bd1d50cb85ba6c0ba525ae7
+w
+G.idea/sonarlint/issuestore/4/b/4bf4cb822daaf56081fc1fa70c3fd91b5846b146,a\9\a927d54bb0cbb486338182493abaeb66bceb920f
+S
+#03_data structures/unique_values.py,9\1\910db9ddc112c495132e96171244f628da994f8c
+N
+03_data structures/homework.py,5\3\53a8f9ba30a5c84aef4e0c14cdd845cd6b4a00d2
+m
+=04_object_oriented programming/class_assignment_result_oop.py,9\1\916f26274ec90293218a0573938d35354a144910
+c
+304_object_oriented programming/class_student_oop.py,1\9\198a9cc66bec3e91c67dfa4488af7599525ce931
+X
+(03_data structures/dict_contains_keys.py,b\0\b0840dace80a9860b052d83099979c81a04ad9de
+V
+&03_data structures/dict_from_string.py,0\b\0beea4923e3109eaa51f1e9bac4c61b195fb7567
 Q
 !03_data structures/flip_matrix.py,d\d\dd3abe99960aa5a21dcb973d25009498060ac76c
+P
+ 03_data structures/find_color.py,2\b\2bd8d5d2585a60d8e67f530bcfec0e4ee96e1607
+Z
+*04_object_oriented programming/homework.py,6\7\6798b812ffc9e8e01de1e4f55e4b81fd88381ca3

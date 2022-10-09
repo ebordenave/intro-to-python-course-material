@@ -7,33 +7,10 @@
 
 
 def nestedRemoval(text: str, leftPattern: str, rightPattern: str) -> str:
-    # List to store indices to be removed
-    removed_list = []
-    # Temporarily store indices
-    temp_list = []
-    # For each element in x range, x is the length of the text do the following
-    for i in range(len(text)):
-        # initialize var s and assign the value of the text string at the index
-        s = text[i]
-        if s is leftPattern:
-            # if s is equal to the leftPattern, append element to temporary list
-            temp_list.append(i)
-        elif s is rightPattern:
-            # if s is equal to the rightPattern
-            if len(temp_list) > 0 and text[temp_list[-1]] is leftPattern:
-                # if the length of the temporary list is greater than 0 and the index of the temp list minus 1 is
-                # equal to the left pattern
-                removed_list.append(temp_list[-1])
-                removed_list.append(i)
-                temp_list = temp_list[:-1]
-            else:
-                temp_list.append(i)
-    ans = ''
-    for i in range(len(text)):
-        if i not in removed_list:
-            ans = ans + text[i]
+    while text.count(leftPattern) >= 1 and text.count(rightPattern) >= 1:
+        text = text.replace(leftPattern, '', 1).replace(rightPattern, '', 1)
+    return text
 
-    return ans
 
 #
 print()
