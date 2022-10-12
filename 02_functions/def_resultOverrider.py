@@ -15,17 +15,13 @@ def resultOverrider(x: int, y: int, op: str = '+', override: callable = None) ->
             return x + y
     else:
         if op == '+':
-            print(x+y)
             return x + y
         elif op == '-':
-            print(x-y)
             return x - y
         elif op == '*':
-            print(x*y)
             return x * y
         elif op == '/':
-            print(x//y)
             return x // y
 
 
-resultOverrider(32, 47, '*', None)
+resultOverrider(22, 29, '/', None)
