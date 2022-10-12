@@ -42,11 +42,11 @@ def productSum(x: int, y: int, z: int) -> int:
         return sum_xy
 
 
-def resultOverrider(x: int, y: int, op: str, override: callable) -> int:
+def resultOverrider(x: int, y: int, op: str = '+', override: callable = None) -> int:
     """Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-    magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-    consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-    Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. """
+     magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+     consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+     Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."""
     if override:
         return override(x, y)
     elif not op:
@@ -59,7 +59,8 @@ def resultOverrider(x: int, y: int, op: str, override: callable) -> int:
         elif op == '-':
             return x - y
         elif op == '*':
-            return x - y
+            return x * y
         elif op == '/':
             return x // y
+
 

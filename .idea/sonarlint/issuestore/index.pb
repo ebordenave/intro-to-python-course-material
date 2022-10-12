@@ -99,12 +99,6 @@ w
 G.idea/sonarlint/issuestore/4/b/4bf4cb822daaf56081fc1fa70c3fd91b5846b146,a\9\a927d54bb0cbb486338182493abaeb66bceb920f
 S
 #03_data structures/unique_values.py,9\1\910db9ddc112c495132e96171244f628da994f8c
-N
-03_data structures/homework.py,5\3\53a8f9ba30a5c84aef4e0c14cdd845cd6b4a00d2
-m
-=04_object_oriented programming/class_assignment_result_oop.py,9\1\916f26274ec90293218a0573938d35354a144910
-c
-304_object_oriented programming/class_student_oop.py,1\9\198a9cc66bec3e91c67dfa4488af7599525ce931
 X
 (03_data structures/dict_contains_keys.py,b\0\b0840dace80a9860b052d83099979c81a04ad9de
 V
@@ -113,5 +107,57 @@ Q
 !03_data structures/flip_matrix.py,d\d\dd3abe99960aa5a21dcb973d25009498060ac76c
 P
  03_data structures/find_color.py,2\b\2bd8d5d2585a60d8e67f530bcfec0e4ee96e1607
-Z
-*04_object_oriented programming/homework.py,6\7\6798b812ffc9e8e01de1e4f55e4b81fd88381ca3
+]
+-04_object_oriented programming/oop_example.py,e\7\e70162cd3681efd6c16c78b8ed1882ce48cddb04
+w
+G.idea/sonarlint/issuestore/a/9/a927d54bb0cbb486338182493abaeb66bceb920f,a\d\ad5da31c729758d347d5255e12d7d0fbb9e3d712
+w
+G.idea/sonarlint/issuestore/6/2/62fa8af965d3f5622798ad36cd6d3d40cae7d8e0,3\6\36831d7ae1e3c965b18fd10a46da5d5485fc97de
+w
+G.idea/sonarlint/issuestore/8/4/8412c8a8c39ec309fe953f384d6d77dcf1737a60,4\f\4f4fca9160a80145fa9438798cf333455d40567f
+w
+G.idea/sonarlint/issuestore/1/5/1567070a146ce754613e938d56a80e6af2d2612d,4\5\45c251550042bbf3e1f893b2af4323f1eb9a3f4c
+w
+G.idea/sonarlint/issuestore/e/a/ea575aef1370b059edac1b819a47cc167b53ff2b,7\a\7a8f387ab537b1a715c1f89af445f53ea155b88c
+w
+G.idea/sonarlint/issuestore/d/5/d51a81cb7df25e7542779e8bd734b85e45ef9006,7\1\71a8e02b7b7b4600840b810855870b1dd8e8f1a0
+w
+G.idea/sonarlint/issuestore/f/9/f90a7bd3d88db0a39e2dd11fe0b074961e162146,3\4\34f779deb7d81de9423a0de9fc3981ac65c79c98
+w
+G.idea/sonarlint/issuestore/5/6/5670401978d03b2f593811b4d2b9cf33c996bddd,f\1\f18012803660f82a530fb3c350bd56de1f62cb06
+w
+G.idea/sonarlint/issuestore/3/8/3877b134524210fe12528c9545e6f17b7b89dc88,e\6\e677d06ca713ac19c721becbedd78539ecde1331
+w
+G.idea/sonarlint/issuestore/4/9/49fe16fb5b31c99fda12a98b65a3d78d2570b3f6,4\1\419eb01e850ec43961a8624ad2a946435b22cd5a
+w
+G.idea/sonarlint/issuestore/6/7/6798b812ffc9e8e01de1e4f55e4b81fd88381ca3,e\d\edf708e4b2aa439b562309c297b81b58027f1100
+w
+G.idea/sonarlint/issuestore/0/b/0beea4923e3109eaa51f1e9bac4c61b195fb7567,a\1\a13ac2029068a2819c61d9125c5e2572604902cd
+w
+G.idea/sonarlint/issuestore/5/4/5412095b70052b221b537ea52a6219133dc70b60,0\b\0b973bec46eec583bca315aa90601aefffd44302
+w
+G.idea/sonarlint/issuestore/2/b/2bd8d5d2585a60d8e67f530bcfec0e4ee96e1607,8\5\85aaba9c29ff5229c5efa796555e4cac13638041
+w
+G.idea/sonarlint/issuestore/1/f/1f24eadacfe2c8072bd1d50cb85ba6c0ba525ae7,6\c\6c1bf44faf6be9cbe63f9c79782f8e6b5b37f5a8
+w
+G.idea/sonarlint/issuestore/b/0/b0840dace80a9860b052d83099979c81a04ad9de,a\3\a334aa15c5a7aee24ed363800cfcc56c90096dbc
+w
+G.idea/sonarlint/issuestore/9/1/910db9ddc112c495132e96171244f628da994f8c,7\6\76a14c516564b183a9d75dc461bcc9a174493acc
+w
+G.idea/sonarlint/issuestore/5/3/53a8f9ba30a5c84aef4e0c14cdd845cd6b4a00d2,e\d\ed7874c41b7c9ad351ecfb10584931f8ce528869
+w
+G.idea/sonarlint/issuestore/1/9/198a9cc66bec3e91c67dfa4488af7599525ce931,a\b\ab1101aac6008dcba7e3a8239b4d150109f8e4be
+w
+G.idea/sonarlint/issuestore/9/8/985beb02997f0775da4918cc91ad82241e264fce,f\a\fab2de5c2f8d2319160c5858fe0509af5c06327d
+w
+G.idea/sonarlint/issuestore/6/6/66398327fd0bfe55f6cf16a0caae77dac32e4b78,e\a\eab7f2bfb2539a464652f5dca0b4f4ef5c68b9cb
+w
+G.idea/sonarlint/issuestore/9/6/967bb787e69fb2c18ac2e3c4e0061839a608a1fb,8\d\8d3f086f06f0919b5eda53cbe9f1abaf875df836
+w
+G.idea/sonarlint/issuestore/2/3/23c8de466a4b85aa0dc43be4c1a7336999d8e728,c\9\c9e496cb565a72fa5cf24dcc1c90510e5ede1a25
+w
+G.idea/sonarlint/issuestore/d/0/d089ebf931693688241793849e2f1b54300e68c6,6\9\6977dcebcf908bbf222ae3734658d975bc5b8962
+w
+G.idea/sonarlint/issuestore/c/7/c7e076997a84b497e2a514cd6a894c263e2436ba,6\6\660cb7e78fc9ea765108f0a924f8be5eb1cc875c
+N
+03_data structures/homework.py,5\3\53a8f9ba30a5c84aef4e0c14cdd845cd6b4a00d2
