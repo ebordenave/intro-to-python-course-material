@@ -26,3 +26,5 @@ def functionSolver(function: callable) -> str:
         return '*'
     # else the string is division
     return '/'
+
+# test
