@@ -27,4 +27,4 @@ def functionSolver(function: callable) -> str:
     # else the string is division
     return '/'
 
-# tes
+# testing a
