@@ -1,1 +1,3 @@
-print("hello world!")
+prod = 1 // 2
+
+print(prod)
