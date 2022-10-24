@@ -77,11 +77,6 @@ class Student:
             return self.grades_ls[0]
 
         average = sum(grades_ls) / len(grades_ls)
-        # / pass get mean grade
-        # / pass get mean grade2
-        # / pass Test Something
-        # / pass simple energy assign
-        # / pass simple assign grade
         # / does not pass Test Full
         # / does not pass get median grade
         # / does not pass get min grade
@@ -128,7 +123,7 @@ class Course:
                 max_grade = student_max_grade
         return max_grade
 
-    def get_min_grade(self):
+    def get_min_grade(self):  # issue here
         min_grade = 0
         for student in self.students:
             student_min_grade = min(student.grades_ls)
@@ -136,7 +131,7 @@ class Course:
                 min_grade = student_min_grade
         return min_grade
 
-    def get_median_grade(self) -> float:
+    def get_median_grade(self) -> float:  # issue here
         grades = []
 
         for student in self.students:
