@@ -1,3 +1,7 @@
+import random
+import statistics
+
+
 class Assignment:
 
     def __init__(self, name: str, difficulty: float):
