@@ -82,8 +82,6 @@ class Student:
 
         average = sum(grades_ls) / len(grades_ls)
         # / does not pass Test Full
-        # / does not pass get median grade
-        # / does not pass get min grade
         return average
 
     def assign(self, assignment: Assignment) -> AssignmentResult:
