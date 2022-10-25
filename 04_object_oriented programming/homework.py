@@ -127,7 +127,7 @@ class Course:
                 max_grade = student_max_grade
         return max_grade
 
-    def get_min_grade(self):  # issue here
+    def get_min_grade(self):
         grades = []
 
         for student in self.students:
@@ -137,7 +137,7 @@ class Course:
         min_grade = min(grades)
         return min_grade
 
-    def get_median_grade(self) -> float:  # issue here
+    def get_median_grade(self) -> float:
         grades = []
 
         for student in self.students:
