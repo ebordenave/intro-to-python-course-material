@@ -128,11 +128,13 @@ class Course:
         return max_grade
 
     def get_min_grade(self):  # issue here
-        min_grade = 0
+        grades = []
+
         for student in self.students:
-            student_min_grade = min(student.grades_ls)
-            if student_min_grade < min_grade:
-                min_grade = student_min_grade
+            for i in student.grades_ls:
+                grades.append(i)
+        grades.sort()
+        min_grade = min(grades)
         return min_grade
 
     def get_median_grade(self) -> float:  # issue here
@@ -142,11 +144,8 @@ class Course:
             for i in student.grades_ls:
                 grades.append(i)
         grades.sort()
-
-        if len(grades) % 2 != 0:
-            return grades[len(grades) // 2]
-
-        return (grades[len(grades) // 2] + grades[len(grades) // 2 + 1]) / 2
+        median = statistics.median(grades)
+        return median
 
     def get_grade_variance(self) -> float:
         mean = self.get_mean_grade()

@@ -99,8 +99,6 @@ Q
 !03_data structures/flip_matrix.py,d\d\dd3abe99960aa5a21dcb973d25009498060ac76c
 P
  03_data structures/find_color.py,2\b\2bd8d5d2585a60d8e67f530bcfec0e4ee96e1607
-]
--04_object_oriented programming/oop_example.py,e\7\e70162cd3681efd6c16c78b8ed1882ce48cddb04
 w
 G.idea/sonarlint/issuestore/a/9/a927d54bb0cbb486338182493abaeb66bceb920f,a\d\ad5da31c729758d347d5255e12d7d0fbb9e3d712
 w
@@ -143,12 +141,8 @@ w
 G.idea/sonarlint/issuestore/c/7/c7e076997a84b497e2a514cd6a894c263e2436ba,6\6\660cb7e78fc9ea765108f0a924f8be5eb1cc875c
 N
 03_data structures/homework.py,5\3\53a8f9ba30a5c84aef4e0c14cdd845cd6b4a00d2
-b
-204_object_oriented programming/in_class_example.py,2\4\24ee795f7fb7a708ee0bde2f68181064f16c1bd6
 R
 "02_functions/def_functionSolver.py,b\6\b67147f7cb2a11563bc002e39d76aeed733a993d
-Y
-)04_object_oriented programming/testing.py,f\a\fa03ce40e2d3bbdf7362fbce594608c44484c514
 w
 G.idea/sonarlint/issuestore/0/b/0b28f476e7f9f95f12562a7a2596d93b4dbd86b9,0\b\0be2fbe2c15db679ec38abe2823cc23a04780b39
 w
