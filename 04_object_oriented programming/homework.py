@@ -119,6 +119,7 @@ class Course:
 
     def get_max_grade(self):
         max_grade = 0
+
         for student in self.students:
             student_max_grade = max(student.grades_ls)
             if student_max_grade > max_grade:
@@ -129,8 +130,7 @@ class Course:
         grades = []
 
         for student in self.students:
-            for i in student.grades_ls:
-                grades.append(i)
+            grades.append(student.grade)
         grades.sort()
         min_grade = min(grades)
         return min_grade
