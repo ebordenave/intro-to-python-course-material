@@ -6,7 +6,7 @@
 # If override is specified this function should always return the result of the invocation of override with x
 # and y passed into it.
 
-def resultOverrider(x: int, y: int, op: str = '+', override: callable = None) -> int:
+def resultOverrider(x: int, y: int, op: str = '+', override: callable = None) -> float:
     if override:
         return override(x, y)
     elif not op:
@@ -21,7 +21,7 @@ def resultOverrider(x: int, y: int, op: str = '+', override: callable = None) ->
         elif op == '*':
             return x * y
         elif op == '/':
-            return x // y
+            return x / y
 
 
 resultOverrider(22, 29, '/', None)
