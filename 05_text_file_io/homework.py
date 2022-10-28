@@ -50,3 +50,8 @@ def write_last_line(file_path: str, text: str = ''):
         with open(file_path, 'a') as f:
             f.write(text)
     return None
+
+
+def clear(file_path: str):
+    open(file_path, 'w').close()
+    return None

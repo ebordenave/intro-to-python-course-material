@@ -2,7 +2,7 @@ import os
 
 
 def write_last_line(file_path: str, text: str = ''):
-    if text != '' and '\n' not in text[0]:
+    if text and '\n' not in text[0]:
         # file exists
         # text is not empty
         # if text exists and does not begin with newline
