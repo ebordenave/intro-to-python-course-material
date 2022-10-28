@@ -247,3 +247,7 @@ f
 699_testing/.testing_arithmetic operations functoins.py,2\b\2b27e1e61b07c7d741d9bed0b42f14bc722b0e58
 Z
 *04_object_oriented programming/homework.py,6\7\6798b812ffc9e8e01de1e4f55e4b81fd88381ca3
+w
+G.idea/sonarlint/issuestore/2/b/2b27e1e61b07c7d741d9bed0b42f14bc722b0e58,4\7\4770882e3af6347a31e8aa63ae367cccf25b60c0
+H
+02_functions/homework.py,7\d\7d310b7e56989dd635469154eb25340cd9fae0ad
