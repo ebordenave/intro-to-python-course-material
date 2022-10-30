@@ -1,4 +1,5 @@
 import os
+import json
 
 
 def read_last_line(file_path: str) -> str:
@@ -34,24 +35,47 @@ def write(file_path: str, text: str = ''):
 
 
 def write_last_line(file_path: str, text: str = ''):
-    if text != '' and '\n' not in text[0]:
-        # file exists
-        # text is not empty
-        # if text exists and does not begin with newline
-        with open(file_path, 'a') as f:
-            f.write('\n' + text)
-    elif not text:
-        # text is missing or empty
-        # file exists
-        return 0
+    if os.path.exists(file_path):
+        if text and '\n' not in text[0]:
+            with open(file_path, 'a') as f:
+                f.write('\n' + text)
+        elif not text:
+            return 0
+        else:
+            with open(file_path, 'a') as f:
+                f.write(text)
     else:
-        # file exists
-        # text is not empty
-        with open(file_path, 'a') as f:
-            f.write(text)
+        with open(file_path, 'w+') as f:
+            f.write('')
     return None
 
 
 def clear(file_path: str):
     open(file_path, 'w').close()
     return None
+
+
+def delete_last_line(file_path: str) -> str:
+    with open(file_path, 'r+') as f:
+        if os.stat(file_path).st_size == 0:
+            return ''
+        else:
+            lines = f.readlines()
+            last_elem = str(next(reversed(lines.copy())))
+            f.seek(0)
+            f.truncate()
+            f.writelines(lines[:-1])
+        print(last_elem)
+        return last_elem
+
+
+def swap_value(file_path: str, key: str, replacement):
+    with open(file_path, 'r') as f:
+        json_data = json.load(f)
+    old_key_value = json_data.get(key)
+    json_data[key] = replacement
+
+    with open(file_path, "w") as f:
+        json.dump(json_data, f)
+    print(old_key_value)
+    return old_key_value

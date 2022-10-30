@@ -89,14 +89,8 @@ w
 G.idea/sonarlint/issuestore/4/b/4bf4cb822daaf56081fc1fa70c3fd91b5846b146,a\9\a927d54bb0cbb486338182493abaeb66bceb920f
 S
 #03_data structures/unique_values.py,9\1\910db9ddc112c495132e96171244f628da994f8c
-X
-(03_data structures/dict_contains_keys.py,b\0\b0840dace80a9860b052d83099979c81a04ad9de
-V
-&03_data structures/dict_from_string.py,0\b\0beea4923e3109eaa51f1e9bac4c61b195fb7567
 Q
 !03_data structures/flip_matrix.py,d\d\dd3abe99960aa5a21dcb973d25009498060ac76c
-P
- 03_data structures/find_color.py,2\b\2bd8d5d2585a60d8e67f530bcfec0e4ee96e1607
 w
 G.idea/sonarlint/issuestore/a/9/a927d54bb0cbb486338182493abaeb66bceb920f,a\d\ad5da31c729758d347d5255e12d7d0fbb9e3d712
 w
@@ -247,7 +241,71 @@ f
 699_testing/.testing_arithmetic operations functoins.py,2\b\2b27e1e61b07c7d741d9bed0b42f14bc722b0e58
 Z
 *04_object_oriented programming/homework.py,6\7\6798b812ffc9e8e01de1e4f55e4b81fd88381ca3
-w
-G.idea/sonarlint/issuestore/2/b/2b27e1e61b07c7d741d9bed0b42f14bc722b0e58,4\7\4770882e3af6347a31e8aa63ae367cccf25b60c0
 H
 02_functions/homework.py,7\d\7d310b7e56989dd635469154eb25340cd9fae0ad
+S
+#02_functions/def_resultOverrider.py,e\0\e0d3d126d3d1a74b24cad99b583e5f7824c86c43
+S
+#05_text_file_io/1_read_last_line.py,0\f\0f6fb27bf4e104d098ca93eb7c0508b17bf3f518
+w
+G.idea/sonarlint/issuestore/2/2/225af992c9394d24f8ccb8feff5bf79b8967b932,2\6\26d128a679895ee69d3fb30350e5740db8ea294d
+w
+G.idea/sonarlint/issuestore/e/c/ecf8f5660fca2525a42a625e754aefc6dcd0ce8d,4\4\44f65e0a70a3055ceefe1da00dd44758fce87db1
+w
+G.idea/sonarlint/issuestore/4/d/4d1d5b93d08b231f79fc2b7a64d542bb2e9b2a59,0\f\0f3c4f612c10f3018fbdfae6bb3a0a1492777fd1
+w
+G.idea/sonarlint/issuestore/5/5/558d6c821f0d93078959b099948894895f6fd3bb,5\9\59de3537d8e704a91d387a9996372710ed0687f1
+w
+G.idea/sonarlint/issuestore/5/b/5b07287f2b93f3cbc3ebee2fd85b00a4cb0f6176,8\e\8ed4d74ce350f243f438ff6cb471a1dca2851244
+w
+G.idea/sonarlint/issuestore/3/0/30c4698236ab17b3f0c234629454f5621bdd3a55,9\3\93173d8e9fcc8ebad9e29bf400e35d0bc5ced2a8
+w
+G.idea/sonarlint/issuestore/8/6/864e5311bd43dbfb5ed2d16352bbd3a2f0c590fb,2\2\227f4990da3587c1ebbf9955ce13016a6b0121e5
+w
+G.idea/sonarlint/issuestore/8/9/8979c07959350f21fda1e688ec59dd17c0327ded,2\1\21756bd577a26c61a66a378fc5e4a21b5d7bdba4
+w
+G.idea/sonarlint/issuestore/a/6/a6d728080ca8d850b6c59d31114f22f2fb5760d6,d\4\d4ab27df568989c3be1aa8e2fa2bf455725d931b
+w
+G.idea/sonarlint/issuestore/b/7/b7249c6fda858b46646322d41f72174c4d83502c,4\5\45a12d0f27ed5e01211ec19f7e81d948c67767b5
+w
+G.idea/sonarlint/issuestore/b/b/bb140c7146418c2941f0df20f3e57c356ff70031,0\d\0dd6a8c3dbb4c7e3a2838a649f2cb457184b4e91
+w
+G.idea/sonarlint/issuestore/c/0/c019bc9edb22b79c293516a9e97f2a836eaa49e8,0\7\07de5c05d5cc792d6a948125f1fecf3c9a730bb3
+w
+G.idea/sonarlint/issuestore/f/0/f0e0f9cec86fe4b939ae22be5264c758801eb28f,5\0\50e216b4439d2538168c3ddca9c0c2fe23bd1c02
+w
+G.idea/sonarlint/issuestore/2/b/2b27e1e61b07c7d741d9bed0b42f14bc722b0e58,4\7\4770882e3af6347a31e8aa63ae367cccf25b60c0
+w
+G.idea/sonarlint/issuestore/2/a/2a16e3b257a31de97d58534b679e235130e4bfa4,9\d\9dcbcc19d6dc67d806732bf8c29cd19c52990b25
+w
+G.idea/sonarlint/issuestore/2/3/23c8de466a4b85aa0dc43be4c1a7336999d8e728,c\9\c9e496cb565a72fa5cf24dcc1c90510e5ede1a25
+w
+G.idea/sonarlint/issuestore/1/f/1f4cf54db8d8db43696d7f06b3a514f1ff00d78f,5\f\5f3ff72800a6c6163b892b0c26c8091df3000e1f
+w
+G.idea/sonarlint/issuestore/1/1/11043ff7c32e765a483aee4247650f005c8786ed,8\0\807fe7fc9e6adb8fc14cd32aec5992addf0716a4
+w
+G.idea/sonarlint/issuestore/6/7/6798b812ffc9e8e01de1e4f55e4b81fd88381ca3,e\d\edf708e4b2aa439b562309c297b81b58027f1100
+w
+G.idea/sonarlint/issuestore/6/c/6c1e69ba889e8ab4ef083a216902cfb403fa9a07,6\7\671ef62e6423d909f599e5dedb9341b280a1df09
+w
+G.idea/sonarlint/issuestore/8/7/87d7381d345a53b298630b85f203f2e7521c4803,0\0\0029a1c5c0106672f389fcdab2aee73b3b963ff6
+w
+G.idea/sonarlint/issuestore/a/b/abe29868cb93536760b29369173538f48adeb5cf,a\a\aae2dda360b4eecbfca22d10e6344cbab053f347
+w
+G.idea/sonarlint/issuestore/7/d/7d310b7e56989dd635469154eb25340cd9fae0ad,4\d\4de002b553017159bfc718fa0eccc74b2f9dd0ff
+w
+G.idea/sonarlint/issuestore/c/7/c7f8c80704a398fdd264021ab81cbd3f23444fd7,0\7\0734c555df34a30d18aa919b4c85cab99c110ada
+w
+G.idea/sonarlint/issuestore/c/b/cb3c5ff2d16ea1fb67d61924cc1ff318c02f925d,e\f\ef59ee94211e9f70d876676fff2e021f96742eee
+w
+G.idea/sonarlint/issuestore/d/5/d51a81cb7df25e7542779e8bd734b85e45ef9006,7\1\71a8e02b7b7b4600840b810855870b1dd8e8f1a0
+w
+G.idea/sonarlint/issuestore/d/f/df19c2b4fdec2a15eeb8bec7bc5aa1c855fb9d75,c\0\c0e62eabf56d9fb0d52e66043395f79b94ff2e63
+w
+G.idea/sonarlint/issuestore/d/f/df62eb6ab57e601f2403214f5540edd49d6cba85,5\a\5abab4f194e40bc57d5bde884009af97a4fb04df
+w
+G.idea/sonarlint/issuestore/4/7/47c4eb295bacccafc24bfe15fefeed0ee742ed85,8\e\8ef522919d33302ae969bb530032ec4f34b79b40
+w
+G.idea/sonarlint/issuestore/0/9/090c394e957f47eb0f011f4564cef96b086389f1,1\5\15c54d5785b80bb4dc634a3f2384d1754f17a40e
+w
+G.idea/sonarlint/issuestore/e/2/e2f08f8efd3aa8691ea7464a4cbbffcdde8f9ef4,c\f\cfa1204d587ca252bbad61b88d6ba7ff3470e8de

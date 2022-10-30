@@ -1,0 +1,6 @@
+greyhound
+pit bull
+boston terrier
+australian shephard
+golden retriever
+poodle
