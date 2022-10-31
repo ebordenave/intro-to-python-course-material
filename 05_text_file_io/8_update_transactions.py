@@ -36,10 +36,12 @@ Transaction1 = Transaction(96021313, 'debit', 9.25)
 Transaction2 = Transaction(96021313, 'credit', 1.25)
 
 # serializes python object to json format
-json_string_object = json.dumps(Transaction1.__dict__, indent=4)
+# json_string_object = json.dumps(Transaction1.__dict__, indent=4)
+# json_string_object2 = json.dumps(Transaction2.__dict__, indent=4)
 
-# writes transaction object to json file
+
 # with open("testing.json", "w") as f:
+#     f.write(json_string_object2)
 #     f.write(json_string_object)
 
 
@@ -58,4 +60,3 @@ def update_transactions(file_path: str, transaction_list: list):
     with open(file_path, 'r') as json_file:
         transaction_data_ls = [json.load(json_file)]
         print(type(transaction_data_ls))
-#
