@@ -3,6 +3,18 @@ import json
 from os import path
 
 
+# steps below:
+# read json file
+# convert json file to dictionaries
+# read key/value pairs from dictionaries from json file
+# keys will ID of transactions
+# search or seek keys
+# remove duplicate IDs in transaction_list
+# new list will remain with unique transaction IDS as keys and type/amount as values
+# update/overwrite old list with new list
+# write transactions to json file
+
+
 class Transaction:
 
     def __init__(self, id: int, type: str, amount: float):
@@ -20,19 +32,17 @@ class Transaction:
         return hasattr(other, 'id') and other.id == self.id
 
 
-# initialize Transaction object
+# initialize Transaction objects
 Transaction1 = Transaction(96021313, 'debit', 9.25)
 Transaction2 = Transaction(96021313, 'credit', 1.25)
 
-print(json.dumps(Transaction1, default=lambda o: o.__dict__, sort_keys=True, indent=4))
+# serializes python object to json format
+json_string_object = json.dumps(Transaction1.__dict__, indent=4)
 
-# print(vars(Transaction1))
-# print(Transaction1)
+# writes transaction object to json file
+with open("testing.json", "w") as f:
+    f.write(json_string_object)
 
-
-# convert to JSON dictionary, note id will be key, type and amount will be value?
-# with open('testing_json.txt', 'w') as f:
-#     json.dump([Transaction1.__dict__ for Transaction1 in new_ls], f)
 
 # def update_transactions(file_path: str, transaction_list: list):
 #     seen = set()
