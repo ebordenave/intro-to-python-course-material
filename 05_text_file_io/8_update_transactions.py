@@ -54,10 +54,8 @@ def update_transactions(file_path: str, transaction_list: list):
     transaction_list = list(transaction_list_no_duplicates)
     print(transaction_list)
 
-# read json file
-    with open(file_path, 'r') as f:
-        transaction_data = json.load(f)
-        print(transaction_data)
+# open and read json file / deserialize transaction data into list of dictionaries
+    with open(file_path, 'r') as json_file:
+        transaction_data_ls = [json.load(json_file)]
+        print(type(transaction_data_ls))
 #
-# convert json file to list of dictionaries
-#     return None
