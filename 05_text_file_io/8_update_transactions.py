@@ -31,32 +31,27 @@ class Transaction:
         return hasattr(other, 'id') and other.id == self.id
 
 
-# initialize Transaction objects
-Transaction1 = Transaction(96021313, 'debit', 9.25)
-Transaction2 = Transaction(96021313, 'credit', 1.25)
-
-# serializes python object to json format
-# json_string_object = json.dumps(Transaction1.__dict__, indent=4)
-# json_string_object2 = json.dumps(Transaction2.__dict__, indent=4)
-
-
-# with open("testing.json", "w") as f:
-#     f.write(json_string_object2)
-#     f.write(json_string_object)
+sample_transaction_list = [Transaction(**{'id': 22961313, 'type': 'withdrawal', 'amount': 12.5}),
+                           Transaction(**{'id': 22961313, 'type': 'deposit', 'amount': 1002.25}),
+                           Transaction(**{'id': 44556677, 'type': 'charge', 'amount': 159.99})]
 
 
 def update_transactions(file_path: str, transaction_list: list):
-    transaction_list_no_duplicates = []
+    unique_transactions = set(val for val in transaction_list)
 
-# remove duplicate transactions from transactions_list
-    for transaction in transaction_list:
-        if transaction not in set():
-            transaction_list_no_duplicates.append(transaction)
-            set().add(transaction)
-    transaction_list = list(transaction_list_no_duplicates)
-    print(transaction_list)
+    with open(file_path, 'r') as fp:
+        saved_transactions = json.load(fp)
 
-# open and read json file / deserialize transaction data into list of dictionaries
-    with open(file_path, 'r') as json_file:
-        transaction_data_ls = [json.load(json_file)]
-        print(type(transaction_data_ls))
+    new_ls = []
+
+    for transaction_dict in saved_transactions:
+        transaction_object = Transaction(**transaction_dict)
+        new_ls.append(transaction_object)
+
+    with open(file_path, 'w') as fp:
+        json.dump(unique_transactions, fp, sort_keys=True, indent=4)
+        fp.close()
+    return None
+
+
+update_transactions('testing.json', sample_transaction_list)

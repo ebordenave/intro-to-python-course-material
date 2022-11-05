@@ -82,17 +82,9 @@ def swap_value(file_path: str, key: str, replacement):
 
 
 def update_transactions(file_path: str, transaction_list: list):
-    seen = set()
-    transaction_list_no_duplicates = []
+    unique_transactions = {transaction['id']: transaction for transaction in transaction_list}.values()
 
-    for transaction in transaction_list:
-        if transaction not in seen:
-            transaction_list_no_duplicates.append(transaction)
-            seen.add(transaction)
-    transaction_list = list(transaction_list_no_duplicates)
-    print(transaction_list)
-
-    with open(file_path, 'w+') as f:
-        json.dump('some text', f)
-
+    with open(file_path, 'w') as f:
+        json.dump(unique_transactions, f, indent=4)
+        f.close()
     return None
