@@ -82,9 +82,17 @@ def swap_value(file_path: str, key: str, replacement):
 
 
 def update_transactions(file_path: str, transaction_list: list):
-    unique_transactions = {transaction['id']: transaction for transaction in transaction_list}.values()
+    unique_transactions = set(val for val in transaction_list)
 
-    with open(file_path, 'w') as f:
-        json.dump(unique_transactions, f, indent=4)
-        f.close()
+    with open(file_path, 'r') as fp:
+        saved_transactions = json.load(fp)
+
+    new_ls = []
+
+    for transaction_dict in saved_transactions:
+        transaction_object = Transaction(**transaction_dict)
+        new_ls.append(transaction_object)
+
+    with open(file_path, 'w', encoding='utf-8') as fp:
+        json.dump(new_ls, fp, ensure_ascii=False, sort_keys=True, indent=4)
     return None

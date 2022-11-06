@@ -38,19 +38,23 @@ sample_transaction_list = [Transaction(**{'id': 22961313, 'type': 'withdrawal', 
 
 def update_transactions(file_path: str, transaction_list: list):
     unique_transactions = set(val for val in transaction_list)
+    print(f"1 unique transactions - {unique_transactions}")
 
     with open(file_path, 'r') as fp:
         saved_transactions = json.load(fp)
+    print(f"2 saved transactions - {saved_transactions}")
 
     new_ls = []
 
     for transaction_dict in saved_transactions:
         transaction_object = Transaction(**transaction_dict)
-        new_ls.append(transaction_object)
+        json_object = json.dumps(transaction_object.__dict__)
+        new_ls.append(json_object)
+        print(f"3 - {new_ls}")
 
-    with open(file_path, 'w') as fp:
-        json.dump(unique_transactions, fp, sort_keys=True, indent=4)
-        fp.close()
+
+    # with open(file_path, 'w+', encoding='utf-8') as fp:
+    #     json.dump(new_ls, fp, ensure_ascii=False, sort_keys=True, indent=4)
     return None
 
 
