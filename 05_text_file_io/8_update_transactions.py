@@ -62,29 +62,57 @@ class Transaction:
         return hasattr(other, 'id') and other.id == self.id
 
 
-sample_transaction_list = [Transaction(**{'id': 22961313, 'type': 'withdrawal', 'amount': 12.5}),
-                           Transaction(**{'id': 22961313, 'type': 'deposit', 'amount': 1002.25}),
-                           Transaction(**{'id': 44556677, 'type': 'charge', 'amount': 159.99})]
+sample_transaction_list = [Transaction(**{"id": 10, "type": "debit", "amount": -288.02}),
+                           Transaction(**{"id": 88, "type": "debit", "amount": 166.13}),
+                           Transaction(**{"id": 502, "type": "credit", "amount": -868.82}),
+                           Transaction(**{"id": 683, "type": "debit", "amount": 267.19}),
+                           Transaction(**{"id": 683, "type": "debit", "amount": 267.19}),
+                           Transaction(**{"id": 772, "type": "credit", "amount": -531.1}),
+                           Transaction(**{"id": 772, "type": "credit", "amount": -531.1}),
+                           Transaction(**{"id": 930, "type": "credit", "amount": 772.45}),
+                           Transaction(**{"id": 930, "type": "credit", "amount": 772.45}),
+                           Transaction(**{"id": 979, "type": "debit", "amount": -866.6})]
 
 
-def update_transactions(file_path: str, transaction_list: list):
+# receive transactions from both json file and transaction list
+def update_transactions(file_path: str, transaction_list):
+    # remove duplicate objects from transaction list
     unique_transactions = set(val for val in transaction_list)
-    print(f"1 unique transactions - {unique_transactions}")
 
+    # init new ls
+    json_file_ls = []
+
+    # read json file (file_path) and load it
     with open(file_path, 'r') as fp:
-        saved_transactions = json.load(fp)
-    print(f"2 saved transactions - {saved_transactions}")
+        saved_transactions_in_json_file = json.load(fp)
 
-    new_ls = []
+    # remove duplicate transactions from json file and append transactions to new list
+    for transaction in saved_transactions_in_json_file:
+        if transaction not in json_file_ls:
+            json_file_ls.append(transaction)
 
-    for transaction_dict in saved_transactions:
-        transaction_object = Transaction(**transaction_dict)
-        json_object = json.dumps(transaction_object.__dict__)
-        new_ls.append(json_object)
-        print(f"3 - {new_ls}")
+    # init combined the lists into one list
+    combined_ls = json_file_ls
 
-    # with open(file_path, 'w+', encoding='utf-8') as fp:
-    #     json.dump(new_ls, fp, ensure_ascii=False, sort_keys=True, indent=4)
+    # convert transaction objects to python readable list of dictionaries
+    for transaction_obj in unique_transactions:
+        transaction_dict = transaction_obj.__dict__
+        combined_ls.append(transaction_dict)
+
+    print(combined_ls)
+
+    combined_ls = list(
+        {
+            dictionary['id']: dictionary
+            for dictionary in combined_ls
+        }.values()
+    )
+
+    print(combined_ls)
+
+    with open(file_path, 'w+', encoding='utf-8') as f:
+        json.dump(combined_ls, f, ensure_ascii=False, indent=4)
+
     return None
 
 

@@ -1,22 +1,52 @@
 [
     {
-    "id": 22961315,
-    "type": 51,
-    "amount": 8.6
-},
-{
-    "id": 22961311,
-    "type": 52,
-    "amount": 8.6
-},
-{
-    "id": 22961319,
-    "type": 53,
-    "amount": 8.6
-},
+        "id": 10,
+        "type": "debit",
+        "amount": -288.02
+    },
     {
-    "id": 22961319,
-    "type": 53,
-    "amount": 8.6
-}
-    ]
+        "id": 356,
+        "type": "debit",
+        "amount": -202.01
+    },
+    {
+        "id": 364,
+        "type": "debit",
+        "amount": -611.16
+    },
+    {
+        "id": 615,
+        "type": "credit",
+        "amount": -435.49
+    },
+    {
+        "id": 930,
+        "type": "credit",
+        "amount": 772.45
+    },
+    {
+        "id": 772,
+        "type": "credit",
+        "amount": -531.1
+    },
+    {
+        "id": 683,
+        "type": "debit",
+        "amount": 267.19
+    },
+    {
+        "id": 979,
+        "type": "debit",
+        "amount": -866.6
+    },
+    {
+        "id": 502,
+        "type": "credit",
+        "amount": -868.82
+    },
+    {
+        "id": 88,
+        "type": "debit",
+        "amount": 166.13
+    }
+]
