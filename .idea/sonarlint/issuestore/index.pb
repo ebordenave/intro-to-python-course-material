@@ -287,5 +287,3 @@ f
 699_testing/.testing_arithmetic operations functoins.py,2\b\2b27e1e61b07c7d741d9bed0b42f14bc722b0e58
 L
 99_testing/.dict_practice.py,a\1\a1df015c7f6a93bf2e6624472a29bcae6224c5e4
-U
-%04_object_oriented programming/oop.py,6\c\6c1f413d08a38ca387b42cb60e7ba69022d4e00a
