@@ -287,3 +287,13 @@ f
 699_testing/.testing_arithmetic operations functoins.py,2\b\2b27e1e61b07c7d741d9bed0b42f14bc722b0e58
 L
 99_testing/.dict_practice.py,a\1\a1df015c7f6a93bf2e6624472a29bcae6224c5e4
+w
+G.idea/sonarlint/issuestore/2/b/2b27e1e61b07c7d741d9bed0b42f14bc722b0e58,4\7\4770882e3af6347a31e8aa63ae367cccf25b60c0
+w
+G.idea/sonarlint/issuestore/f/a/faa0bff13ef7e64b18e88b4e7e859f0aa1e574ed,c\7\c7404d0d12d02cd2c0f5ad2047c8bede8312de25
+X
+(05_text_file_io/8_update_transactions.py,b\5\b539b4c2c1ad7b023c780684f3bc462a7bda201e
+Z
+*04_object_oriented programming/homework.py,6\7\6798b812ffc9e8e01de1e4f55e4b81fd88381ca3
+X
+(06_error_handling/00_ raiseIndexError.py,6\5\65b1249ca2f2d58373ce856fee2156163bf4ee00

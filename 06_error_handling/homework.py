@@ -13,10 +13,7 @@ def raiseIndexError(v):
 def raiseZeroDivisionErrorWithMessage(message: str):
     x = 0
     y = 0
-    try:
-        res = x / y
-        print(res)
-    except ZeroDivisionError:
+    if x or y == 0:
         raise ZeroDivisionError(message)
 
 
