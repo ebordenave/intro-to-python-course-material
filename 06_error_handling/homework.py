@@ -14,8 +14,11 @@ def raiseZeroDivisionErrorWithMessage(message: str):
     x = 0
     y = 0
     try:
-        z = x / y
+        res = x / y
+        print(res)
     except ZeroDivisionError:
-        message = 'zero division error'
-        raise message
-    return message
+        raise ZeroDivisionError(message)
+
+
+def raiseThisException(exception):
+    raise exception
