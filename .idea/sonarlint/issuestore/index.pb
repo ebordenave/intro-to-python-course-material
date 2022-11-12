@@ -108,8 +108,6 @@ G.idea/sonarlint/issuestore/4/9/49fe16fb5b31c99fda12a98b65a3d78d2570b3f6,4\1\41
 w
 G.idea/sonarlint/issuestore/0/b/0beea4923e3109eaa51f1e9bac4c61b195fb7567,a\1\a13ac2029068a2819c61d9125c5e2572604902cd
 w
-G.idea/sonarlint/issuestore/5/4/5412095b70052b221b537ea52a6219133dc70b60,0\b\0b973bec46eec583bca315aa90601aefffd44302
-w
 G.idea/sonarlint/issuestore/2/b/2bd8d5d2585a60d8e67f530bcfec0e4ee96e1607,8\5\85aaba9c29ff5229c5efa796555e4cac13638041
 w
 G.idea/sonarlint/issuestore/1/f/1f24eadacfe2c8072bd1d50cb85ba6c0ba525ae7,6\c\6c1bf44faf6be9cbe63f9c79782f8e6b5b37f5a8
@@ -254,8 +252,6 @@ G.idea/sonarlint/issuestore/b/7/b7249c6fda858b46646322d41f72174c4d83502c,4\5\45
 w
 G.idea/sonarlint/issuestore/c/0/c019bc9edb22b79c293516a9e97f2a836eaa49e8,0\7\07de5c05d5cc792d6a948125f1fecf3c9a730bb3
 w
-G.idea/sonarlint/issuestore/2/b/2b27e1e61b07c7d741d9bed0b42f14bc722b0e58,4\7\4770882e3af6347a31e8aa63ae367cccf25b60c0
-w
 G.idea/sonarlint/issuestore/2/a/2a16e3b257a31de97d58534b679e235130e4bfa4,9\d\9dcbcc19d6dc67d806732bf8c29cd19c52990b25
 w
 G.idea/sonarlint/issuestore/2/3/23c8de466a4b85aa0dc43be4c1a7336999d8e728,c\9\c9e496cb565a72fa5cf24dcc1c90510e5ede1a25
@@ -285,3 +281,11 @@ w
 G.idea/sonarlint/issuestore/0/9/090c394e957f47eb0f011f4564cef96b086389f1,1\5\15c54d5785b80bb4dc634a3f2384d1754f17a40e
 w
 G.idea/sonarlint/issuestore/e/2/e2f08f8efd3aa8691ea7464a4cbbffcdde8f9ef4,c\f\cfa1204d587ca252bbad61b88d6ba7ff3470e8de
+K
+05_text_file_io/homework.py,f\a\faa0bff13ef7e64b18e88b4e7e859f0aa1e574ed
+f
+699_testing/.testing_arithmetic operations functoins.py,2\b\2b27e1e61b07c7d741d9bed0b42f14bc722b0e58
+L
+99_testing/.dict_practice.py,a\1\a1df015c7f6a93bf2e6624472a29bcae6224c5e4
+U
+%04_object_oriented programming/oop.py,6\c\6c1f413d08a38ca387b42cb60e7ba69022d4e00a
