@@ -6,4 +6,4 @@ def raiseIndexError(v):
     return None
 
 
-raiseIndexError(5)
+raiseIndexError(4)
