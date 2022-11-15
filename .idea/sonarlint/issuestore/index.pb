@@ -281,6 +281,18 @@ w
 G.idea/sonarlint/issuestore/0/9/090c394e957f47eb0f011f4564cef96b086389f1,1\5\15c54d5785b80bb4dc634a3f2384d1754f17a40e
 w
 G.idea/sonarlint/issuestore/e/2/e2f08f8efd3aa8691ea7464a4cbbffcdde8f9ef4,c\f\cfa1204d587ca252bbad61b88d6ba7ff3470e8de
+X
+(05_text_file_io/8_update_transactions.py,b\5\b539b4c2c1ad7b023c780684f3bc462a7bda201e
+M
+06_error_handling/in_class.py,5\d\5d3b5fa28baf26493ad99d47783402aae3f1ff16
+X
+(06_error_handling/test_my_application.py,d\c\dcbf256a499f0099d09184882c9aaf1e9d51149c
+S
+#06_error_handling/my_application.py,0\8\081983524b10f2e39218db65ab3e9f28b8bf3053
+M
+06_error_handling/homework.py,9\5\9522a132cd6983fe5f3acc123409fd21bca48409
+i
+906_error_handling/01_raiseZeroDivisionErrorWithMessage.py,6\9\69c6330030f430902add15e5d1709254cbfbabb8
 K
 05_text_file_io/homework.py,f\a\faa0bff13ef7e64b18e88b4e7e859f0aa1e574ed
 f
@@ -291,8 +303,6 @@ w
 G.idea/sonarlint/issuestore/2/b/2b27e1e61b07c7d741d9bed0b42f14bc722b0e58,4\7\4770882e3af6347a31e8aa63ae367cccf25b60c0
 w
 G.idea/sonarlint/issuestore/f/a/faa0bff13ef7e64b18e88b4e7e859f0aa1e574ed,c\7\c7404d0d12d02cd2c0f5ad2047c8bede8312de25
-X
-(05_text_file_io/8_update_transactions.py,b\5\b539b4c2c1ad7b023c780684f3bc462a7bda201e
 Z
 *04_object_oriented programming/homework.py,6\7\6798b812ffc9e8e01de1e4f55e4b81fd88381ca3
 X
