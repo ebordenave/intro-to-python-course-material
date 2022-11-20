@@ -11,17 +11,17 @@ def catchAndReturnMessage(message: str, main_function: callable) -> str:
         raise
 
 
-def is_callable(arg) -> bool:
-    var = callable(arg)
-    # print(var)
-    return var
-
-
-def return_zero():
-    return 0
-
-
-# print(is_callable(return_zero))
-
-
-catchAndReturnMessage(message=f'1{print(is_callable(return_zero))}', main_function=return_zero)
+# def is_callable(arg) -> bool:
+#     var = callable(arg)
+#     # print(var)
+#     return var
+#
+#
+# def return_zero():
+#     return 0
+#
+#
+# # print(is_callable(return_zero))
+#
+#
+# catchAndReturnMessage(message=f'1{print(is_callable(return_zero))}', main_function=return_zero)

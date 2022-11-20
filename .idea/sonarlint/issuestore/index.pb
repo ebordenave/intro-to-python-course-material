@@ -289,8 +289,6 @@ X
 (06_error_handling/test_my_application.py,d\c\dcbf256a499f0099d09184882c9aaf1e9d51149c
 S
 #06_error_handling/my_application.py,0\8\081983524b10f2e39218db65ab3e9f28b8bf3053
-M
-06_error_handling/homework.py,9\5\9522a132cd6983fe5f3acc123409fd21bca48409
 i
 906_error_handling/01_raiseZeroDivisionErrorWithMessage.py,6\9\69c6330030f430902add15e5d1709254cbfbabb8
 K
@@ -307,3 +305,7 @@ Z
 *04_object_oriented programming/homework.py,6\7\6798b812ffc9e8e01de1e4f55e4b81fd88381ca3
 X
 (06_error_handling/00_ raiseIndexError.py,6\5\65b1249ca2f2d58373ce856fee2156163bf4ee00
+Z
+*06_error_handling/02_raiseThisException.py,6\b\6b0ace2a36333b4e80f43dd436b6d9120125ca55
+I
+99_testing/value_error.py,7\0\701097dadf7fcd66695d0355c30246d3b6c45640

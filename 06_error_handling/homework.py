@@ -19,3 +19,16 @@ def raiseZeroDivisionErrorWithMessage(message: str):
 
 def raiseThisException(exception):
     raise exception
+
+
+def catchAndReturnMessage(message: str, main_function: callable) -> str:
+    try:
+        # invoke the callable
+        main_function()
+
+        # return message if exception is not raised
+        # print(message)
+        return message
+    except Exception as err:
+        print(err)
+        raise
