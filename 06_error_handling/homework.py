@@ -1,11 +1,8 @@
 import time
 
 
-def raiseIndexError(v):
-    ls = [1, 2, 3]
-    if v > len(ls):
-        raise IndexError('index error')
-    return None
+def raiseIndexError():
+    raise IndexError('index error')
 
 
 def raiseZeroDivisionErrorWithMessage(message: str):
@@ -21,15 +18,10 @@ def raiseThisException(exception):
 
 def catchAndReturnMessage(message: str, main_function: callable) -> str:
     try:
-        # invoke the callable
         main_function()
-
-        # return message if exception is not raised
-        # print(message)
         return message
     except Exception as err:
-        print(err)
-        raise
+        return str(err)
 
 
 def catchCleanupAndThrow(main_supplier: callable, index_supplier: callable, zero_supplier: callable,

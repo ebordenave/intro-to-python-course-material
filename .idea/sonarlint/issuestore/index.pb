@@ -303,8 +303,6 @@ w
 G.idea/sonarlint/issuestore/f/a/faa0bff13ef7e64b18e88b4e7e859f0aa1e574ed,c\7\c7404d0d12d02cd2c0f5ad2047c8bede8312de25
 Z
 *04_object_oriented programming/homework.py,6\7\6798b812ffc9e8e01de1e4f55e4b81fd88381ca3
-X
-(06_error_handling/00_ raiseIndexError.py,6\5\65b1249ca2f2d58373ce856fee2156163bf4ee00
 Z
 *06_error_handling/02_raiseThisException.py,6\b\6b0ace2a36333b4e80f43dd436b6d9120125ca55
 I
