@@ -1,12 +1,11 @@
-
-def catchCleanupAndThrow(main_supplier:callable, index_supplier:callable, zero_supplier:callable, cleanup:callable) -> str:
+def catchCleanupAndThrow(main_supplier: callable, index_supplier: callable, zero_supplier: callable,
+                         cleanup: callable) -> str:
+    # try main_supplier
     try:
-        # invoke the callable
-        main_function()
-
-        # return message if exception is not raised
-        print(message)
-        return message
-    except Exception as err:
-        print(err)
-        raise
+        return main_supplier()
+    except IndexError:
+        return index_supplier()
+    except ZeroDivisionError:
+        return zero_supplier()
+    finally:
+        cleanup()
