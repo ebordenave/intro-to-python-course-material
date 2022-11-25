@@ -281,8 +281,6 @@ w
 G.idea/sonarlint/issuestore/0/9/090c394e957f47eb0f011f4564cef96b086389f1,1\5\15c54d5785b80bb4dc634a3f2384d1754f17a40e
 w
 G.idea/sonarlint/issuestore/e/2/e2f08f8efd3aa8691ea7464a4cbbffcdde8f9ef4,c\f\cfa1204d587ca252bbad61b88d6ba7ff3470e8de
-X
-(05_text_file_io/8_update_transactions.py,b\5\b539b4c2c1ad7b023c780684f3bc462a7bda201e
 M
 06_error_handling/in_class.py,5\d\5d3b5fa28baf26493ad99d47783402aae3f1ff16
 X
@@ -335,3 +333,9 @@ w
 G.idea/sonarlint/issuestore/3/2/320e9fb72b2f379987cd0e06a63826dfa3e9305e,e\1\e17c07f6f20caaa051ca70c12170ac28da88a83c
 ]
 -06_error_handling/03_catchAndReturnMessage.py,9\a\9a1831accfcc0ac529bffb6b76a820394c7e45bc
+M
+06_error_handling/homework.py,9\5\9522a132cd6983fe5f3acc123409fd21bca48409
+X
+(06_error_handling/00_ raiseIndexError.py,6\5\65b1249ca2f2d58373ce856fee2156163bf4ee00
+S
+#06_error_handling/05_class_timer.py,b\4\b45991aaa23cd235b33f0384932b77df630b83f8

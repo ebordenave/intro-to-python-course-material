@@ -26,3 +26,6 @@ def sw_vehicle_search(cargo_capacity: int, max_speed: int, cost: int) -> list:
             pass
     # print(f"vehicles that match query => {query_matches}")
     return query_matches
+
+
+sw_vehicle_search(1, 1, 950000)
