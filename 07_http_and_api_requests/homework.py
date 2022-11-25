@@ -71,19 +71,18 @@ def wear_a_jacket(us_zip: str) -> bool:
 
     weather = data['weather']
     main = data['main']
-    print(main)
-    print(weather)
+    print(f"main => {main}")
+    print(f"weather => {weather}")
 
-    new_ls = next((item for item in weather if item['main'] != 'rain' and item['main'] != 'snow'), None)
+    new_ls = next((item for item in weather if item['main'] != 'Rain' and item['main'] != 'Snow'), None)
 
     if not new_ls:
-        # print("wear a jacket its raining or snowing")
+        print("wear a jacket its raining or snowing")
         return True
-    elif new_ls:
-        for keys, values in main.items():
-            if keys == 'feels_like' and values < float(60.00):
-                # print("wear a jacket its cold")
-                return True
-            else:
-                # print("no jacket needed")
-                return False
+
+    if main['feels_like'] <= float(60.00):
+        print("wear a jacket its cold")
+        return True
+    else:
+        print("no jacket needed")
+        return False
