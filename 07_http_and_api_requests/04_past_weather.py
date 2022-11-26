@@ -1,6 +1,5 @@
 import requests
 import time
-import json
 
 
 def past_weather(days: int, hours: int, minutes: int, us_zip: str) -> float:
@@ -44,7 +43,6 @@ def past_weather(days: int, hours: int, minutes: int, us_zip: str) -> float:
                         temp = item
                         print(temp)
                         return temp
-                    # this should be 2.64
 
 
-past_weather(0, 20, 54, '34266')
+past_weather(0, 20, 54, '02186')
