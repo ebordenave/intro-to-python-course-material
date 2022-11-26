@@ -90,7 +90,8 @@ def wear_a_jacket(us_zip: str) -> bool:
 
 
 def past_weather(days: int, hours: int, minutes: int, us_zip: str) -> float:
-    past_time = int(time.time() - (days * hours * minutes * 60))
+    seconds = (60 * minutes) + (hours * 3600) + (24 * 3600 * days)
+    past_time = int(time.time() - seconds)
     my_dict = {}
     api_key = 'a24eb87bf52d34ce70b21764f0103579'
 
@@ -120,15 +121,14 @@ def past_weather(days: int, hours: int, minutes: int, us_zip: str) -> float:
             url = 'https://api.openweathermap.org/data/3.0/onecall/timemachine'
             response = requests.get(url, params=params)
             data = response.json()
-            print(f"data => {data}")
 
             # last step is to return temperature at past_time
             for k, v in data.items():
                 if k == 'data':
-                    new_dict = next((item for item in v if item['temp'] != 'Rain' and item['temp'] != 'Snow'), None)
-                    temp = new_dict['temp']
-                    print(temp)
-                    return temp
+                    my_list = [item['temp'] for item in v]
+                    for item in my_list:
+                        temp = item
+                        print(temp)
+                        return temp
+                    # this should be 2.64
 
-
-past_weather(4, 0, 5, '02186')
