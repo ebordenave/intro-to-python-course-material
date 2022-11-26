@@ -14,6 +14,7 @@ def wear_a_jacket(us_zip: str) -> bool:
 
     new_ls = next((item for item in weather if item['main'] != 'Rain' and item['main'] != 'Snow'), None)
 
+
     if not new_ls:
         print("wear a jacket its raining or snowing")
         return True
