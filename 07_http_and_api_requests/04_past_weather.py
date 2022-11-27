@@ -26,7 +26,7 @@ def past_weather(days: int, hours: int, minutes: int, us_zip: str) -> float:
         # this block filters dictionaries using us_zip_code value inputted from user
         # assigns values to lat and lon variables
         if us_zip in my_dict.values():
-            print(f"dictionary => {my_dict}")
+            # print(f"dictionary => {my_dict}")
             lat = my_dict['lat']
             lon = my_dict['lon']
             # print(f"latitude => {lat}, longitude => {lon}")
