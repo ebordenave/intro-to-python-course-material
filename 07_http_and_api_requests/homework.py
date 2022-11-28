@@ -132,3 +132,56 @@ def past_weather(days: int, hours: int, minutes: int, us_zip: str) -> float:
                         return temp
                     # this should be 2.64
 
+
+def borders(country_name_a: str, country_name_b: str) -> bool:
+    cca3 = None
+    url = 'https://restcountries.com/v3.1/name/'
+    a_response = requests.get(url + country_name_a)
+    b_response = requests.get(url + country_name_b)
+
+    a_data = a_response.json()
+    b_data = b_response.json()
+
+    for item in a_data:
+        try:
+            print(
+                f"country A name with '{country_name_a}' in it => {item['name']['common']} and it borders {item['borders']}")
+            # print(f"country A name with '{country_name_a}' cca3 code => {item['cca3']}")
+
+        except KeyError:
+            pass
+        cca3 = item['cca3']
+        print(cca3)
+
+    print('-' * 100)
+
+    for item in b_data:
+        try:
+            print(
+                f"country B name with '{country_name_b}' in it => {item['name']['common']} and it borders {item['borders']}")
+        except KeyError:
+            pass
+
+        try:
+            border_countries = item['borders']
+            if cca3 in border_countries:
+                print("yes")
+                return True
+            else:
+                return False
+        except KeyError:
+            print("no")
+            return False
+
+        # print(f"dictionary => {item}")
+
+    # print(data)
+    # for item in data:
+    #     print(item)
+
+
+# get cca3 of country a and country b
+# get dictionary of bordering countries for both country a and country b
+# check dictionary if cca3 of country a exists in dictionary
+
+borders('peru', 'bolivia')
