@@ -16,7 +16,6 @@ def borders(country_name_a: str, country_name_b: str) -> bool:
         try:
             print(
                 f"country A name with '{country_name_a}' in it => {item['name']['common']} and it borders {item['borders']}")
-            # print(f"country A name with '{country_name_a}' cca3 code => {item['cca3']}")
 
         except KeyError:
             pass
@@ -51,8 +50,9 @@ def borders(country_name_a: str, country_name_b: str) -> bool:
     #     print(item)
 
 
-# get cca3 of country a and country b
-# get dictionary of bordering countries for both country a and country b
-# check dictionary if cca3 of country a exists in dictionary
+# nesting the for loops might help solve the multiple country a issues.
+# provide a loop that iterates through data for country a and assigns a value to cca3
+# provide a condition (within this loop) where if cca3 is found in the dictionary of bordering countries from data of country b
+# return result
 
-borders('haiti', 'dominican')
+borders('china', 'macau')
