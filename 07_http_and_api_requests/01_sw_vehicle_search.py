@@ -28,4 +28,4 @@ def sw_vehicle_search(cargo_capacity: int, max_speed: int, cost: int) -> list:
     return query_matches
 
 
-sw_vehicle_search(1, 1, 950000)
+sw_vehicle_search(50, 50, 950000)

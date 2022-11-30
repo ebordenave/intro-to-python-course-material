@@ -1,8 +1,6 @@
 import requests
-import json
 
 
-# def borders(country_name_a: str, country_name_b: str) -> bool:
 def borders(country_name_a: str, country_name_b: str) -> bool:
     cca3 = None
     url = 'https://restcountries.com/v3.1/name/'
@@ -12,42 +10,42 @@ def borders(country_name_a: str, country_name_b: str) -> bool:
     a_data = a_response.json()
     b_data = b_response.json()
 
-    for item in a_data:
-        try:
-            print(
-                f"country A name with '{country_name_a}' in it => {item['name']['common']} and it borders {item['borders']}")
-
-        except KeyError:
-            pass
-        cca3 = item['cca3']
-        print(f"country code for {item['name']['common']} is {cca3}")
+    try:
+        for item in a_data:
+            try:
+                cca3 = item['cca3']
+                print(
+                    f"country A name with '{country_name_a}' in it => {item['name']['common']} and it borders {item['borders']}")
+                # print(f"country A name with '{country_name_a}' cca3 code => {item['cca3']}")
+            except KeyError:
+                pass
+    except KeyError:
+        pass
 
     print('-' * 100)
 
-    for item in b_data:
-        try:
-            print(
-                f"country B name with '{country_name_b}' in it => {item['name']['common']} and it borders {item['borders']}")
-        except KeyError:
-            pass
+    try:
+        for item in b_data:
+            try:
+                border_countries = item['borders']
+                print(
+                    f"country B name with '{country_name_b}' in it => {item['name']['common']} and it borders {item['borders']}")
+            except KeyError:
+                pass
+    except KeyError:
+        pass
 
-        try:
-            border_countries_b = item['borders']
-            if cca3 in border_countries_b:
-                print("do they border? yes")
-                return True
-            else:
-                print("do they border? no")
-                return False
-        except KeyError:
+    try:
+        print(cca3)
+        if cca3 in border_countries:
+            print("do they border? yes")
+            return True
+        else:
             print("do they border? no")
             return False
-
-        # print(f"dictionary => {item}")
-
-    # print(data)
-    # for item in data:
-    #     print(item)
+    except KeyError:
+        print("do they border? no")
+        return False
 
 
 # nesting the for loops might help solve the multiple country a issues.
@@ -55,4 +53,4 @@ def borders(country_name_a: str, country_name_b: str) -> bool:
 # provide a condition (within this loop) where if cca3 is found in the dictionary of bordering countries from data of country b
 # return result
 
-borders('china', 'macau')
+borders('qat', 'saudi')
