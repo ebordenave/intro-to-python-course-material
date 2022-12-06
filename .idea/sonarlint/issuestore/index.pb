@@ -375,3 +375,7 @@ w
 G.idea/sonarlint/issuestore/e/4/e40e70b465fa67f23b11e08eccb122c6e931f644,b\c\bcdbc93591ced88e4e802ffc804c637f5638bfad
 w
 G.idea/sonarlint/issuestore/b/4/b45991aaa23cd235b33f0384932b77df630b83f8,8\7\874126080fbd06c3fa1c1b9bd30e017204a7f485
+T
+$07_http_and_api_requests/homework.py,d\7\d762f2cd0af9ce7a0487860f6d41ee822cf15f9e
+`
+007_http_and_api_requests/01_sw_vehicle_search.py,7\f\7f86a8945b0f1fbb280982ec82c1b4f5fb17b645
