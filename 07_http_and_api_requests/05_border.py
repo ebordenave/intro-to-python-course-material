@@ -50,4 +50,4 @@ def borders(country_name_a: str, country_name_b: str) -> bool:
 # try combining these into single sets for A and B
 
 
-borders('saudi', 'qat')
+borders('dominican', 'haiti')
